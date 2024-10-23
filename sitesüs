@@ -1,0 +1,114 @@
+css
+/* Arka Plan ve Yazı Renkleri */
+body {
+    background-color: #e3f2fd; /* Hafif mavi arka plan rengi */
+    color: #333; /* Yazı rengi */
+}
+
+/* Başlık Rengi */
+header {
+    background-color: #1e88e5; /* Koyu mavi arka plan rengi */
+    color: #fff; /* Beyaz yazı rengi */
+    text-align: center;
+    padding: 1em;
+}
+
+/* Navigasyon Renkleri */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff; /* Beyaz yazı rengi */
+    text-decoration: none;
+}
+
+/* Footer Rengi */
+footer {
+    background-color: #1e88e5;
+    color: #fff; /* Beyaz yazı rengi */
+    text-align: center;
+    padding: 1em;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+html
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+css
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+### 3. Buton Stilleri
+Butonları daha çekici hale getirebiliriz.
+css
+/* Buton Stilleri */
+button {
+    background-color: #42a5f5; /* Buton rengi */
+    color: white; /* Yazı rengi */
+    padding: 10px 20px; /* İç boşluk */
+    border: none; /* Kenarlık yok */
+    border-radius: 5px; /* Köşeleri yuvarlat */
+    cursor: pointer; /* İşaretçi simgesi */
+    transition: background-color 0.3s ease; /* Animasyon süresi ve tarzı */
+}
+
+/* Buton Üzerine Gelince */
+button:hover {
+    background-color: #1e88e5; /* Üzerine gelince değişen renk */
+}
+css
+/* Başlık Gölgesi */
+header {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Gölge ekle */
+}
+
+/* Kart Stili ve Kenarlıklar */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    background-color: #fff; /* Arka plan rengi */
+    border: 1px solid #ddd; /* Kenarlık ekle */
+}
+html
+<main>
+    <section class="card">
+        <h2>Projemizin Amacı</h2>
+        <p>Öğrencilerin bireysel öğrenme ihtiyaçlarına yönelik yapay zeka destekli kişiselleştirilmiş eğitim programları sunmak.</p>
+    </section>
+    <section class="card">
+        <h2>Bölüm 2</h2>
+        <p>Bu bölümde başka bir içerik yer alır.</p>
+    </section>
+</main>
+html
+<section class="card">
+    <img src="path-to-your-image.jpg" alt="Açıklayıcı yazı" style="width:100%; border-radius: 8px 8px 0 0;">
+    <h2>Bölüm Başlığı</h2>
+    <p>Bu bölümde içerik yer alır.</p>
+</section>
+html
+<section>
+    <h2>Yeni Bir Başlık</h2>
+    <p>Bu, sayfaya eklemek istediğin yeni metin olacak.</p>
+</section>
+html
+<section>
+    <img src="resim-dosya-yolu.jpg" alt="Açıklayıcı Yazı" style="width:100%; border-radius: 8px;">
+</section>
+
+
+
